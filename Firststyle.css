@@ -157,3 +157,16 @@ button:hover, button:focus {
   color: #000;
   transform: translateY(-7px);
 }
+
+@media (max-width: 1250px){
+  h1 {
+    padding-top: 10%;
+    font-size: 3rem;
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 5vw;
+  }
+}
