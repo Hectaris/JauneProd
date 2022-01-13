@@ -224,7 +224,7 @@ src: url('/site jaune prod/police/Helvetica-Bold.ttf');
 .material-card .img-container {
   overflow: hidden;
   position: absolute;
-  display: flex;
+  object-fit: cover;
   background-color: white;
   left: 0;
   top: 0;
@@ -1296,4 +1296,9 @@ h2 {
 }
 .imgblock{
   width: 120%;
+}
+.maurine{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
